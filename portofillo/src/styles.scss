@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+  
+body::-webkit-scrollbar {
+    display: none;
+}
